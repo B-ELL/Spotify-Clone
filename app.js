@@ -9,10 +9,6 @@ let songsItems = Array.from(document.getElementsByClassName('songItems'));
 masterSongName = document.getElementById('masterSongName');
 songDuration = document.getElementsByClassName('timestamp');
 
-let Audio =new Audio[
-    {duration: "songs/Baarishein.mp3".duration}
-];
-console.log(Audio);
 let songs = [
     {songName: "4 AM In Karachi", filePath: "songs/4 AM in Karachi.mp3", coverPath: "covers/4AM in Karachijpeg.jpeg"},
     {songName: "Baarishein", filePath: "songs/Baarishein.mp3", coverPath: "covers/barras.jpg"},
